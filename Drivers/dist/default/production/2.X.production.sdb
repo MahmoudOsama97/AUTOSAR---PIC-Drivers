@@ -1,0 +1,407 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"9 C:\Users\mosta\Downloads\PIC\My Projects\2.X\LED.c
+[e E906 . `uc
+PORT_PIN_IN 0
+PORT_PIN_OUT 1
+]
+[e E910 . `uc
+PULL_UP 0
+PULL_DOWN 1
+NO_PULL 2
+]
+"14 C:\Users\mosta\Downloads\PIC\My Projects\2.X\Port.c
+[e E927 . `uc
+PORT_NOT_INITIALIZED 0
+PORT_INITIALIZED 1
+]
+"17
+[e E914 . `uc
+PortA 0
+PortB 1
+PortC 2
+PortD 3
+PortE 4
+]
+[e E901 . `uc
+PORT_PIN_IN 0
+PORT_PIN_OUT 1
+]
+[e E905 . `uc
+PULL_UP 0
+PULL_DOWN 1
+NO_PULL 2
+]
+"57 C:\Users\mosta\Downloads\PIC\My Projects\2.X\main.c
+[e E965 . `uc
+I2C0 0
+]
+[e E957 . `uc
+I2C_SLAVE_7BIT 6
+I2C_SLAVE_10BIT 7
+I2C_MASTER 8
+I2C_MASTER_FRIMWARE 9
+I2C_SLAVE_7BIT_INT_EN 10
+I2C_SLAVE_10BIT_INT_EN 11
+]
+[e E979 . `uc
+BITS_8 0
+]
+[e E973 . `uc
+INTERNAL_BUFFER 0
+]
+[e E976 . `uc
+MSB_FIRST 0
+]
+[e E968 . `uc
+I2C_UNINIT 0
+I2C_IDLE 1
+I2C_BUSY 2
+]
+"3 C:\Users\mosta\Downloads\PIC\My Projects\2.X\I2c.c
+[e E914 . `uc
+PortA 0
+PortB 1
+PortC 2
+PortD 3
+PortE 4
+]
+[e E901 . `uc
+PORT_PIN_IN 0
+PORT_PIN_OUT 1
+]
+[e E905 . `uc
+PULL_UP 0
+PULL_DOWN 1
+NO_PULL 2
+]
+[e E890 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+"9
+[e E965 . `uc
+I2C0 0
+]
+[e E957 . `uc
+I2C_SLAVE_7BIT 6
+I2C_SLAVE_10BIT 7
+I2C_MASTER 8
+I2C_MASTER_FRIMWARE 9
+I2C_SLAVE_7BIT_INT_EN 10
+I2C_SLAVE_10BIT_INT_EN 11
+]
+[e E979 . `uc
+BITS_8 0
+]
+[e E973 . `uc
+INTERNAL_BUFFER 0
+]
+[e E976 . `uc
+MSB_FIRST 0
+]
+[e E968 . `uc
+I2C_UNINIT 0
+I2C_IDLE 1
+I2C_BUSY 2
+]
+"34
+[e E945 . `uc
+SEN_BIT 0
+RSEN_BIT 1
+PEN_BIT 2
+RCEN_BIT 3
+ACKEN_BIT 4
+ACKDT_BIT 5
+ACKSTAT_BIT 6
+]
+"5 C:\Users\mosta\Downloads\PIC\My Projects\2.X\adc.c
+[e E914 . `uc
+PortA 0
+PortB 1
+PortC 2
+PortD 3
+PortE 4
+]
+[e E901 . `uc
+PORT_PIN_IN 0
+PORT_PIN_OUT 1
+]
+[e E905 . `uc
+PULL_UP 0
+PULL_DOWN 1
+NO_PULL 2
+]
+[e E890 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\itoa.c
+[v _itoa itoa `(*.4uc  1 e 1 0 ]
+"17
+[v _utoa utoa `(*.4uc  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"27 C:\Users\mosta\Downloads\PIC\My Projects\2.X\Dio.c
+[v _Dio_WriteChannel Dio_WriteChannel `(v  1 e 1 0 ]
+"3 C:\Users\mosta\Downloads\PIC\My Projects\2.X\I2c eeprom.c
+[v _EEPROM_Write EEPROM_Write `(v  1 e 1 0 ]
+"30
+[v _EEPROM_Read EEPROM_Read `(uc  1 e 1 0 ]
+"9 C:\Users\mosta\Downloads\PIC\My Projects\2.X\I2c.c
+[v _I2c_Init I2c_Init `(v  1 e 1 0 ]
+"27
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+"31
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+"36
+[v _I2C_Master_RepeatedStart I2C_Master_RepeatedStart `(v  1 e 1 0 ]
+"41
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+"46
+[v _I2C_Master_Write I2C_Master_Write `(uc  1 e 1 0 ]
+"54
+[v _I2c_WriteSlaveAddress I2c_WriteSlaveAddress `(uc  1 e 1 0 ]
+"73
+[v _I2C_Read_Byte I2C_Read_Byte `(uc  1 e 1 0 ]
+"83
+[v _I2C_ACK I2C_ACK `(v  1 e 1 0 ]
+"89
+[v _I2C_NACK I2C_NACK `(v  1 e 1 0 ]
+"50 C:\Users\mosta\Downloads\PIC\My Projects\2.X\lcd.c
+[v _LCD_DATA LCD_DATA `(v  1 e 1 0 ]
+"124
+[v _LCD_sendCommand LCD_sendCommand `(v  1 e 1 0 ]
+"145
+[v _LCD_displayCharacter LCD_displayCharacter `(v  1 e 1 0 ]
+"172
+[v _LCD_displayString LCD_displayString `(v  1 e 1 0 ]
+"188
+[v _LCD_goToRowColumn LCD_goToRowColumn `(v  1 e 1 0 ]
+"23 C:\Users\mosta\Downloads\PIC\My Projects\2.X\LED.c
+[v _ledsConfigurations ledsConfigurations `(v  1 s 1 ledsConfigurations ]
+"63
+[v _writeLed writeLed `(v  1 s 1 writeLed ]
+"74 C:\Users\mosta\Downloads\PIC\My Projects\2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"17 C:\Users\mosta\Downloads\PIC\My Projects\2.X\Port.c
+[v _Port_Init Port_Init `(v  1 e 1 0 ]
+[s S104 . 5 `E914 1 Port 1 0 `uc 1 Pin 1 1 `E901 1 PinDirection 1 2 `uc 1 PinIntitLevel 1 3 `E905 1 PullConfig 1 4 ]
+"5 C:\Users\mosta\Downloads\PIC\My Projects\2.X\adc.c
+[v _Port_Config Port_Config `[4]S104  1 e 20 0 ]
+"340 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"808
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"815
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1159
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S364 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 GO_nDONE 1 0 :1:2 
+`uc 1 CHS 1 0 :3:3 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1190
+[s S370 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO 1 0 :1:2 
+`uc 1 CHS0 1 0 :1:3 
+`uc 1 CHS1 1 0 :1:4 
+`uc 1 CHS2 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S378 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nDONE 1 0 :1:2 
+]
+[s S381 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO_DONE 1 0 :1:2 
+]
+[u S384 . 1 `S364 1 . 1 0 `S370 1 . 1 0 `S378 1 . 1 0 `S381 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES384  1 e 1 @31 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1754
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+"1823
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1830
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2377
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"2380
+[v _ACKSTAT ACKSTAT `VEb  1 e 0 @1166 ]
+"2575
+[v _GO_DONE GO_DONE `VEb  1 e 0 @250 ]
+"2761
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"2764
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"2767
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"2770
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"2776
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"2779
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"2824
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"3010
+[v _TRISE1 TRISE1 `VEb  1 e 0 @1097 ]
+"3013
+[v _TRISE2 TRISE2 `VEb  1 e 0 @1098 ]
+[s S22 . 2 `uc 1 Port 1 0 `uc 1 Channel 1 1 ]
+"16 C:\Users\mosta\Downloads\PIC\My Projects\2.X\Dio.c
+[s S25 . 18 `[9]S22 1 Channels 18 0 ]
+[v _Dio_ConfigGroupChannel Dio_ConfigGroupChannel `S25  1 e 18 0 ]
+"3 C:\Users\mosta\Downloads\PIC\My Projects\2.X\I2c.c
+[v _I2c_Configurations I2c_Configurations `[2]S104  1 e 10 0 ]
+[s S49 . 4 `uc 1 port 1 0 `uc 1 pin_num 1 1 `E906 1 direction 1 2 `E910 1 pulling 1 3 ]
+"9 C:\Users\mosta\Downloads\PIC\My Projects\2.X\LED.c
+[v _ON_Lamp_Config ON_Lamp_Config `S49  1 s 4 ON_Lamp_Config ]
+"10
+[v _Heater_Lamp_Config Heater_Lamp_Config `S49  1 s 4 Heater_Lamp_Config ]
+[s S140 . 13 `E965 1 I2c_Module 1 0 `ui 1 I2c_Channel 2 1 `ul 1 I2c_Baudrate 4 3 `E957 1 I2c_Mode 1 7 `uc 1 I2c_DefaultTransmitValue 1 8 `E979 1 I2c_DataWidth 1 9 `E973 1 I2c_BufferSource 1 10 `E976 1 I2c_TransferStart 1 11 `E968 1 I2c_Status 1 12 ]
+"57 C:\Users\mosta\Downloads\PIC\My Projects\2.X\main.c
+[v _x x `S140  1 e 13 0 ]
+"14 C:\Users\mosta\Downloads\PIC\My Projects\2.X\Port.c
+[v _PortStatus PortStatus `[5]E927  1 e 5 0 ]
+"74 C:\Users\mosta\Downloads\PIC\My Projects\2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"83
+} 0
+"9 C:\Users\mosta\Downloads\PIC\My Projects\2.X\I2c.c
+[v _I2c_Init I2c_Init `(v  1 e 1 0 ]
+{
+[s S140 . 13 `E965 1 I2c_Module 1 0 `ui 1 I2c_Channel 2 1 `ul 1 I2c_Baudrate 4 3 `E957 1 I2c_Mode 1 7 `uc 1 I2c_DefaultTransmitValue 1 8 `E979 1 I2c_DataWidth 1 9 `E973 1 I2c_BufferSource 1 10 `E976 1 I2c_TransferStart 1 11 `E968 1 I2c_Status 1 12 ]
+[v I2c_Init@Config_Ptr Config_Ptr `*.4S140  1 a 1 wreg ]
+[v I2c_Init@Config_Ptr Config_Ptr `*.4S140  1 a 1 wreg ]
+"11
+"9
+[v I2c_Init@Config_Ptr Config_Ptr `*.4S140  1 a 1 4 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 9 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"17 C:\Users\mosta\Downloads\PIC\My Projects\2.X\Port.c
+[v _Port_Init Port_Init `(v  1 e 1 0 ]
+{
+[v Port_Init@ConfigPtr ConfigPtr `*.4DCS104  1 a 1 wreg ]
+"19
+[v Port_Init@Port_Ptr Port_Ptr `*.39VEuc  1 a 2 4 ]
+[v Port_Init@Port_Dir_Ptr Port_Dir_Ptr `*.39VEuc  1 a 2 2 ]
+"17
+[v Port_Init@ConfigPtr ConfigPtr `*.4DCS104  1 a 1 wreg ]
+[v Port_Init@ConfigPtr ConfigPtr `*.4DCS104  1 a 1 6 ]
+"54
+} 0
+"3 C:\Users\mosta\Downloads\PIC\My Projects\2.X\I2c eeprom.c
+[v _EEPROM_Write EEPROM_Write `(v  1 e 1 0 ]
+{
+[v EEPROM_Write@add add `ui  1 p 2 1 ]
+[v EEPROM_Write@data data `uc  1 p 1 3 ]
+"12
+} 0
+"54 C:\Users\mosta\Downloads\PIC\My Projects\2.X\I2c.c
+[v _I2c_WriteSlaveAddress I2c_WriteSlaveAddress `(uc  1 e 1 0 ]
+{
+[v I2c_WriteSlaveAddress@data data `uc  1 a 1 wreg ]
+[v I2c_WriteSlaveAddress@data data `uc  1 a 1 wreg ]
+"56
+[v I2c_WriteSlaveAddress@data data `uc  1 a 1 0 ]
+"61
+} 0
+"30 C:\Users\mosta\Downloads\PIC\My Projects\2.X\I2c eeprom.c
+[v _EEPROM_Read EEPROM_Read `(uc  1 e 1 0 ]
+{
+"32
+[v EEPROM_Read@Data Data `uc  1 a 1 3 ]
+"30
+[v EEPROM_Read@add add `ui  1 p 2 1 ]
+"45
+} 0
+"73 C:\Users\mosta\Downloads\PIC\My Projects\2.X\I2c.c
+[v _I2C_Read_Byte I2C_Read_Byte `(uc  1 e 1 0 ]
+{
+"82
+} 0
+"89
+[v _I2C_NACK I2C_NACK `(v  1 e 1 0 ]
+{
+"94
+} 0
+"46
+[v _I2C_Master_Write I2C_Master_Write `(uc  1 e 1 0 ]
+{
+[v I2C_Master_Write@data data `uc  1 a 1 wreg ]
+[v I2C_Master_Write@data data `uc  1 a 1 wreg ]
+"48
+[v I2C_Master_Write@data data `uc  1 a 1 0 ]
+"53
+} 0
+"41
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+{
+"45
+} 0
+"31
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+{
+"35
+} 0
+"36
+[v _I2C_Master_RepeatedStart I2C_Master_RepeatedStart `(v  1 e 1 0 ]
+{
+"40
+} 0
+"27
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+{
+"30
+} 0
