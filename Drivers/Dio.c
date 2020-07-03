@@ -15,8 +15,8 @@
 
 Dio_ConfigGroupChannelType Dio_ConfigGroupChannel = 
 {
-    (Dio_PortType)3,  (Dio_ChannelType)1,
-    (Dio_PortType)3,  (Dio_ChannelType)0,
+    (Dio_PortType)1,  (Dio_ChannelType)3,
+    (Dio_PortType)1,  (Dio_ChannelType)4,
     (Dio_PortType)3,  (Dio_ChannelType)2,
     (Dio_PortType)1,  (Dio_ChannelType)2
             
